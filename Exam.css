@@ -1,6 +1,6 @@
 body {
   Font-family: Arial, sans-serif;
-  width: 50%;
+  width: 60%;
   font-size: 14px;
 }
 h1 {
@@ -14,19 +14,21 @@ section {
 }
 img {
   width: 35%;
-  position: relative;
 }
 div {
   background-color: rgb(255, 255, 240);
   padding: 10px;
-  width: 60%;
-  /*position: absolute;*/
+  width: 59%;
 }
 th, td {
   text-align: left;
 }
+table {
+  float: left;
+}
 .pencil {
-  position: relative;
-  right: 10px;
-  bottom: 10px;
+  float: right;
+  height: 20px;
+  width: 20px;
+  padding-top: 10px;
 }
