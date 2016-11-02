@@ -1,0 +1,32 @@
+body {
+  Font-family: Arial, sans-serif;
+  width: 50%;
+  font-size: 14px;
+}
+h1 {
+  font-size: 28px;
+}
+section {
+  background-color: rgb(83, 97, 148);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  width: 35%;
+  position: relative;
+}
+div {
+  background-color: rgb(255, 255, 240);
+  padding: 10px;
+  width: 60%;
+  /*position: absolute;*/
+}
+th, td {
+  text-align: left;
+}
+.pencil {
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+}
