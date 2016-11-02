@@ -2,6 +2,7 @@ body {
   Font-family: Arial, sans-serif;
   width: 60%;
   font-size: 14px;
+  margin: 0 auto;
 }
 h1 {
   font-size: 28px;
@@ -11,14 +12,20 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 img {
   width: 35%;
 }
 div {
-  background-color: rgb(255, 255, 240);
   padding: 10px;
   width: 59%;
+}
+.textbgr1 {
+  background-color: rgb(255, 255, 240);
+}
+.textbgr2 {
+  background-color: rgb(171, 183, 224) !important;
 }
 th, td {
   text-align: left;
