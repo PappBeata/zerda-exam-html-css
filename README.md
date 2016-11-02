@@ -111,3 +111,7 @@ Inline-block setting adds the advantages of both above: the container-property o
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
+Sections are collection of elements thematically belonging together with own headings
+inlcuding part of the entire content of e.g. a homepage.
+Articles are like articles in magazines independent from each other, with separate topics.
+They could be taken out and put into another html document, they would still make sense.
