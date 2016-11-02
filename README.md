@@ -81,6 +81,13 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 #### Your answer: [2p]
+Foo box is nested into body with position absolute,
+so this is 20px down and 20px to the right of the t-l. corner of the body.
+Bar is nested into foo with an absolute position too,
+so it is 20px down and 20px to the right of the t-l. corner of foo.
+This adds up to 40px down and 40px to the right of the t-l. corner of the body
+for the yellow box with the class "bar". Not taken into account that
+the "div" element might have a default browser-style.
 
 
 ## 3. Explain concepts (~15 minutes) [4 points]
@@ -89,7 +96,18 @@ Add your answer to this readme file, commit your changes to this repository.
 
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
+"Display: block" sets the type of the element as block-level element,
+which is occupying the space given by its parent
+(e.g. width fills the space to the right padding of the parent).
+They start in new lines. They contain other elements of almost any type.
 
+"Display: inline" sets an element as if it would be an inline element,
+which only occupy space their content needs.
+They do not open a new line and might overlap.
+They do not have top and bottom margin or paddings.
+They contain only data or other inline elements.
+
+Inline-block setting adds the advantages of both above: the container-property of the block element (can expand to the childrens' extent and do not overlap with another block) and the inline element (only occupies the space its content needs and flows within its parent)
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
